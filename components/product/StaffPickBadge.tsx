@@ -18,7 +18,7 @@ export default function StaffPickBadge() {
             fill="fill-current"
           />
         </svg>
-        <Twemoji emoji="bullet-train" />
+        <Twemoji emoji="wrapped-gift" />
       </div>
     </div>
   );

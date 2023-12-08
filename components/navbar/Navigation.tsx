@@ -17,7 +17,7 @@ export default function Navigation() {
             <p className="italic">&apos;Tis the season</p>
           </div>
           <p className="mt-4 w-full text-xs text-neutral-500 dark:text-neutral-400">
-            © {new Date().getFullYear()} NoelGifts.list → Beta 0.0.1
+            © {new Date().getFullYear()} NoelGifts.list → Beta 0.0.2
           </p>
         </div>
       </CardFooter>
