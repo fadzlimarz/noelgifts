@@ -50,7 +50,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                 ? "scale-90 blur-lg grayscale"
                 : "scale-75 blur-0 grayscale-0"
             )}
-            onLoadingComplete={() => setLoading(false)}
+            onLoad={() => setLoading(false)}
           />
         </div>
       </CardContent>

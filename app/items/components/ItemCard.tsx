@@ -53,7 +53,7 @@ export default function ItemCard({ item }: ItemCardProps) {
               ? "scale-90 blur-lg grayscale"
               : "scale-75 blur-0 grayscale-0"
           )}
-          onLoadingComplete={() => setLoading(false)}
+          onLoad={() => setLoading(false)}
         />
       </Link>
       <div className="relative flex flex-col my-auto w-full lg:w-1/3">
