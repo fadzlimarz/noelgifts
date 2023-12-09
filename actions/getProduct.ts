@@ -2,7 +2,7 @@ import { supabase } from "@/lib/supabase-clients";
 import { cache } from "react";
 import { Product } from "@prisma/client";
 
-export const revalidate = 60; // revalidate the data at every hour
+export const revalidate = 0; // revalidate the data at every hour?
 
 export const getProduct = cache(async (slug: string) => {
   const { data, error } = await supabase

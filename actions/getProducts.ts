@@ -2,7 +2,7 @@ import { supabase } from "@/lib/supabase-clients";
 import { cache } from "react";
 import { ProductWithCategory } from "@/components/product/Products";
 
-export const revalidate = 60; // revalidate the data at every hour
+export const revalidate = 0; // revalidate the data at every hour?
 
 export const getProducts = cache(async ({ limit }: { limit: number }) => {
   const { data, error } = await supabase
