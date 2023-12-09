@@ -8,6 +8,9 @@ const nextConfig = {
       "www.amazon.ca",
       "m.media-amazon.com",
       "www.ikea.com",
+      "product-images.metro.ca",
+      "imagescdn.simons.ca",
+      "ca.shop.runningroom.com",
     ],
   },
 };
