@@ -23,7 +23,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       return;
     }
 
-    router.push(`/items/${product.slug}`);
+    router.push(`/item/${product.slug}`);
   };
 
   const handleKeyDown = (event: React.KeyboardEvent) => {

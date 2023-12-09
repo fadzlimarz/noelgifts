@@ -60,14 +60,14 @@ export default function ItemCard({ item }: ItemCardProps) {
         <CardHeader className="space-y-2 pl-0 lg:pl-14">
           <div className="flex flex-row gap-1.5 text-neutral-500 text-[14px] font-light dark:text-neutral-400">
             {/* <Link
-              href={`/brands/${item[0].brand.replace(/\s/g, "-")}`}
+              href={`/lists/${item[0].brand.replace(/\s/g, "-")}`}
               className="hover:underline"
             >
               {capitalizeFirstLetterOfEachWord(item[0].brand.toLowerCase())}
             </Link> */}
             {/* <i>·</i> */}
             <Link
-              href={`/category/${categoryLookupTable[item[0].categoryId]}`}
+              href={`/lists/${categoryLookupTable[item[0].categoryId]}`}
               className="hover:underline"
             >
               {getCategoryTitle(item[0].categoryId)}

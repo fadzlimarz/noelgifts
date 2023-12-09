@@ -45,7 +45,7 @@ export default function Navbar() {
           {categories.map((category, i) => (
             <Link
               key={i}
-              href={`/category/${category.href}`}
+              href={`/lists/${category.href}`}
               className="mb-2 hover:cursor-pointer text-sm text-black hover:underline dark:text-neutral-100"
             >
               {category.title}
