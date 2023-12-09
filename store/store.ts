@@ -19,7 +19,7 @@ type ProductStore = ProductState & ProductStoreActions;
 
 const useProductStore = create<ProductStore>()((set) => ({
   products: [],
-  startIndex: 26,
+  startIndex: 9,
   limit: 5,
   totalProductCount: 0,
   hasMoreItems: true,

@@ -6,7 +6,7 @@ export default function EndOfPagination() {
           End of the line.
         </p>
         <p className="text-neutral-500 dark:text-neutral-500 font-light">
-          Fewer, better things.
+          &apos;Tis the season.
         </p>
       </div>
     </div>

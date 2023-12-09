@@ -31,8 +31,8 @@ export default function Navbar() {
       <header className="flex justify-between">
         <div>
           <div className="flex justify-between">
-            <div className="mr-1 text-xl">
-              <Twemoji emoji="christmas-tree" />
+            <div className="mr-1 text-xl font-semibold">
+              <Twemoji emoji="christmas-tree" /> Noel Gifts
             </div>
           </div>
         </div>

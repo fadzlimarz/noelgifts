@@ -38,7 +38,7 @@ export default function Pagination() {
   };
 
   const hasMoreItems =
-    totalProductCount === 0 || totalProductCount > 26 + products.length;
+    totalProductCount === 0 || totalProductCount > 9 + products.length;
 
   return (
     <div className="pb-8 pt-16 flex justify-center">

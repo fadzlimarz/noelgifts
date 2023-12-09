@@ -5,6 +5,7 @@ import { getCategoryTitle } from "@/actions/decodeCategoryId";
 import { getFilteredProducts } from "@/actions/getFilteredProducts";
 import Products from "@/components/product/Products";
 import NotFound from "@/components/ui/NotFound";
+import EndOfPagination from "@/components/ui/EndOfPagination";
 
 export default async function ProductPage({
   params,
@@ -40,6 +41,7 @@ export default async function ProductPage({
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <Products data={filteredItemsWithoutCurrentItem} />
       </div>
+      <EndOfPagination />
     </div>
   );
 }
